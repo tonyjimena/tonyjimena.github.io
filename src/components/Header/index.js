@@ -26,20 +26,6 @@ export default function Header() {
           <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
         </svg>
       </div>
-      <div className="text-slider">
-        <p class="marquee">
-          <span>
-            Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! -
-            Coming soon! -&nbsp;
-          </span>
-        </p>
-        <p class="marquee marquee2">
-          <span>
-            Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! -
-            Coming soon! -&nbsp;
-          </span>
-        </p>
-      </div>
     </header>
   );
 }
