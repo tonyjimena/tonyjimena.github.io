@@ -1,21 +1,12 @@
-import React from 'react';
-import logo from './logo-skinner-fondo.png';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import Header from "./components/Header/";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://github.com/tonyjimena"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github
-        </a>
-      </header>
+      <Header />
     </div>
   );
 }
