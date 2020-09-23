@@ -29,15 +29,13 @@ export default function Header() {
       <div className="text-slider">
         <p class="marquee">
           <span>
-            Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming
-            soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! -
+            Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! -
             Coming soon! -&nbsp;
           </span>
         </p>
         <p class="marquee marquee2">
           <span>
-            Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming
-            soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! -
+            Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! - Coming soon! -
             Coming soon! -&nbsp;
           </span>
         </p>
