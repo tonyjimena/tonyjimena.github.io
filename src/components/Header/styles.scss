@@ -3,8 +3,8 @@
   src: url("../../assets/fonts/BarlowCondensed-ExtraBoldItalic.ttf");
 }
 .App-logo {
+  width: 20rem;
   margin-top: 5rem;
-  height: 40vmin;
   pointer-events: none;
 }
 
@@ -17,21 +17,27 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-color: white;
   animation: slide-down 1s ease;
 }
 
 .Container {
+  align-items: center;
+  width: 100%;
   position: absolute;
   top: -5rem;
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  background-color: white;
+  height: 30rem;
 }
 
 .App-link {
+  top: 25rem;
+  position: absolute;
   background-color: #fff;
   color: #ff5757;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 4rem;
   text-decoration: none;
   transition: 0.3s ease;
   transition-property: transform, border;
@@ -44,8 +50,7 @@
 
 .custom-shape-divider-top-1600866841 {
   position: absolute;
-  top: 100%;
-  left: 0;
+  top: 25rem;
   width: 100%;
   overflow: hidden;
   line-height: 0;

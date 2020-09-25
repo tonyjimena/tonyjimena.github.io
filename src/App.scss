@@ -1,0 +1,35 @@
+:root {
+  --background-color-app: #313131;
+  --secondary-color: #414141;
+  --third-color: #525252;
+  --fourth-color: #ca3e47;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--background-color-app);
+  height: 400vh;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "CardsSection CardsSection CardsSection"
+    "MeSection MeSection MeSection"
+    "footer footer footer";
+  grid-template-rows: 1fr 1fr 1fr 0.5fr;
+  grid-template-columns: 1fr;
+  grid-gap: 0px;
+
+  header {
+    grid-area: header;
+  }
+  .CardsSection {
+    grid-area: CardsSection;
+  }
+  .MeSection {
+    grid-area: MeSection;
+  }
+  footer {
+    grid-area: footer;
+
+  }
+}

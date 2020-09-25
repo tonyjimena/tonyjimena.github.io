@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
-import "./App.css";
+import "./App.scss";
 
 import Header from "./components/Header/";
-import ThemePicker from "./components/ThemePicker/";
+import CardsSection from "./components/CardsSection/";
+import MeSection from "./components/MeSection/";
+import Footer from "./components/Footer/";
 
 function App() {
   useEffect(() => {
@@ -14,7 +16,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <ThemePicker />
+      <CardsSection />
+      <MeSection />
+      <Footer />
     </div>
   );
 }
